@@ -1,0 +1,49 @@
+body {
+  background: #000000;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.HOME {
+  width: 100%;
+  height: 100vh;
+  padding-top: 480px;
+  background: url(./img/back1.png) no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 28%;
+  flex-basis: 28%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 33% !important;
+  flex-basis: 33% !important;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 25.333333% !important;
+  flex-basis: 25.333333% !important;
+}
+@media (max-width: 768px) {
+  .HOME {
+    width: 100%;
+    height: 50vh;
+    padding-top: 400px;
+    background: url(./img/back1.png) no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
